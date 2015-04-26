@@ -1,0 +1,31 @@
+/*
+Theme Name: ARLA Design Lab Theme
+Theme URI: http://arladesignlab.com/themes/arlatheme
+Author: Rob Arpi
+Author URI: http://about.me/robarpi
+Description: Versión 2014 del Tema de Wordpress para la Agencia Digital Creativa ARLA Design Lab
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, green, blue, orange, colorfull, creative, agency, responsive, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, featured-images, theme-options
+Text Domain: arlatheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Imported Theme styles
+ *   1.1 - BX Slider - Import
+ *   1.2 - Boostrap - Import
+ *   1.3 - Font icons - Import
+ *   1.4 - D'Sari Font - Import
+ *   1.5 - Customize styles - Import
+ *   1.6 - NIB Vendor Prefixes - Import
+ * -----------------------------------------------------------------------------
+ */
+
+@import 'assets/css/theme.css'
+

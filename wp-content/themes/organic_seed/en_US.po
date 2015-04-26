@@ -1,0 +1,606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Seed\n"
+"POT-Creation-Date: 2014-03-31 23:56-1000\n"
+"PO-Revision-Date: 2014-03-31 23:57-1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20 404.php:41
+msgid "Not Found, Error 404"
+msgstr ""
+
+#: 404.php:21 404.php:42
+msgid "The page you are looking for no longer exists."
+msgstr ""
+
+#: comments.php:17
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgid "One Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:61
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: content/author-page.php:14
+msgid "Website:"
+msgstr ""
+
+#: content/author-page.php:15
+msgid "Link to author page"
+msgstr ""
+
+#: content/author-page.php:20
+msgid "Profile:"
+msgstr ""
+
+#: content/author-page.php:28
+#, php-format
+msgid "Posts by %1$s:"
+msgstr ""
+
+#: content/author-page.php:41
+msgid "No posts by this author."
+msgstr ""
+
+#: content/home-page.php:5 content/home-page.php:14 content/home-post.php:14
+#: content/home-tabs.php:35 content/home-tabs.php:44
+#: content/slider-featured.php:24 content/slider-featured.php:26
+#: content/slider-featured.php:49 content/slider-featured.php:51
+#: formats/format-audio.php:9 formats/format-gallery.php:8
+#: formats/format-image.php:9 formats/format-image.php:11
+#: formats/format-standard.php:19 formats/format-video.php:8
+#: loop-archive.php:20 loop-portfolio.php:47
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content/home-page.php:14 content/home-tabs.php:44
+msgid "Learn More"
+msgstr ""
+
+#: content/home-post.php:25 content/home-post.php:44
+#: formats/format-standard.php:9 formats/format-video.php:11
+#: loop-archive.php:10 loop-post.php:7
+msgid "Posted on"
+msgstr ""
+
+#: content/home-post.php:25 content/home-post.php:44
+#: formats/format-standard.php:9 formats/format-video.php:11
+#: loop-archive.php:10 loop-post.php:7
+msgid "F j, Y"
+msgstr ""
+
+#: content/home-post.php:26 content/home-post.php:45
+msgid "Comment"
+msgstr ""
+
+#: content/home-post.php:26 content/home-post.php:45
+#: formats/format-standard.php:8 formats/format-video.php:12
+#: loop-archive.php:9 loop-post.php:6
+msgid "1 Comment"
+msgstr ""
+
+#: content/home-post.php:64 loop-blog.php:26
+msgid "No Posts Found"
+msgstr ""
+
+#: content/home-post.php:65 loop-blog.php:27
+msgid ""
+"We're sorry, but no posts have been found. Create a post to be added to this "
+"section, and configure your theme options."
+msgstr ""
+
+#: content/home-tabs.php:12
+msgid "..."
+msgstr ""
+
+#: content/social-share.php:13
+msgid "Tweet"
+msgstr ""
+
+#: footer.php:70
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:70
+msgid "Y"
+msgstr ""
+
+#: footer.php:70
+msgid "All Rights Reserved"
+msgstr ""
+
+#: footer.php:71
+msgid "Seed Theme"
+msgstr ""
+
+#: footer.php:71 formats/format-standard.php:9 formats/format-video.php:11
+#: loop-archive.php:10 loop-post.php:7
+msgid "by"
+msgstr ""
+
+#: footer.php:71
+msgid "Organic Themes"
+msgstr ""
+
+#: footer.php:71
+msgid "WordPress Hosting"
+msgstr ""
+
+#: footer.php:71
+msgid "RSS Feed"
+msgstr ""
+
+#: formats/format-audio.php:14 formats/format-gallery.php:11
+#: formats/format-standard.php:25 formats/format-video.php:20
+#: functions.php:519 loop-page.php:5
+msgid "Read More"
+msgstr ""
+
+#: formats/format-link.php:12
+msgid "Visit Link"
+msgstr ""
+
+#: formats/format-standard.php:8 formats/format-video.php:12
+#: loop-archive.php:9 loop-post.php:6
+msgid "Leave a Comment"
+msgstr ""
+
+#: functions.php:26
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:162
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:170
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:178
+msgid "Post Sidebar"
+msgstr ""
+
+#: functions.php:186
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:194
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:202
+msgid "Footer Mid Left"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer Mid Right"
+msgstr ""
+
+#: functions.php:218
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:265
+msgid "Link Information"
+msgstr ""
+
+#: functions.php:272
+msgid "Link URL: "
+msgstr ""
+
+#: functions.php:280
+msgid "Quote Author"
+msgstr ""
+
+#: functions.php:287
+msgid "Author: "
+msgstr ""
+
+#: functions.php:458
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:458 functions.php:498
+msgid "Edit"
+msgstr ""
+
+#: functions.php:476
+#, php-format
+msgid "%1$s <br/> %2$s <br/>"
+msgstr ""
+
+#: functions.php:482
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: functions.php:491
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:496
+msgid "Reply"
+msgstr ""
+
+#: functions.php:543
+msgid "&laquo;"
+msgstr ""
+
+#: functions.php:544
+msgid "&raquo;"
+msgstr ""
+
+#: functions.php:585
+msgid "Featured Video Embed Code"
+msgstr ""
+
+#: functions.php:674
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: header.php:67 header.php:94 includes/customizer.php:164
+#: includes/customizer.php:175
+msgid "Logo"
+msgstr ""
+
+#: header.php:129
+msgid "Menu"
+msgstr ""
+
+#: includes/customizer.php:21
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/customizer.php:75 includes/customizer.php:330
+msgid "2 Seconds"
+msgstr ""
+
+#: includes/customizer.php:76 includes/customizer.php:331
+msgid "4 Seconds"
+msgstr ""
+
+#: includes/customizer.php:77 includes/customizer.php:332
+msgid "6 Seconds"
+msgstr ""
+
+#: includes/customizer.php:78 includes/customizer.php:333
+msgid "8 Seconds"
+msgstr ""
+
+#: includes/customizer.php:79 includes/customizer.php:334
+msgid "10 Seconds"
+msgstr ""
+
+#: includes/customizer.php:80 includes/customizer.php:335
+msgid "12 Seconds"
+msgstr ""
+
+#: includes/customizer.php:81 includes/customizer.php:336
+msgid "20 Seconds"
+msgstr ""
+
+#: includes/customizer.php:82 includes/customizer.php:337
+msgid "30 Seconds"
+msgstr ""
+
+#: includes/customizer.php:83 includes/customizer.php:338
+msgid "1 Minute"
+msgstr ""
+
+#: includes/customizer.php:84 includes/customizer.php:339
+msgid "Hold Frame"
+msgstr ""
+
+#: includes/customizer.php:96 includes/customizer.php:354
+msgid "Fade"
+msgstr ""
+
+#: includes/customizer.php:97 includes/customizer.php:355
+msgid "Slide"
+msgstr ""
+
+#: includes/customizer.php:109 includes/customizer.php:530
+msgid "One Column"
+msgstr ""
+
+#: includes/customizer.php:110 includes/customizer.php:531
+msgid "Two Columns"
+msgstr ""
+
+#: includes/customizer.php:111 includes/customizer.php:532
+msgid "Three Columns"
+msgstr ""
+
+#: includes/customizer.php:123 includes/customizer.php:191
+#: includes/customizer.php:212
+msgid "Left Align"
+msgstr ""
+
+#: includes/customizer.php:124 includes/customizer.php:192
+#: includes/customizer.php:213
+msgid "Center Align"
+msgstr ""
+
+#: includes/customizer.php:125 includes/customizer.php:193
+#: includes/customizer.php:214
+msgid "Right Align"
+msgstr ""
+
+#: includes/customizer.php:137 includes/customizer.php:229
+msgid "Black"
+msgstr ""
+
+#: includes/customizer.php:138 includes/customizer.php:230
+msgid "White"
+msgstr ""
+
+#: includes/customizer.php:165
+#, php-format
+msgid ""
+"Logo images are scaled to 50% original size for crisp display on retina "
+"screens."
+msgstr ""
+
+#: includes/customizer.php:188
+msgid "Logo Alignment"
+msgstr ""
+
+#: includes/customizer.php:209
+msgid "Site Title & Tagline Alignment"
+msgstr ""
+
+#: includes/customizer.php:226
+msgid "Site Title & Tagline Color"
+msgstr ""
+
+#: includes/customizer.php:316
+msgid "Featured Slideshow"
+msgstr ""
+
+#: includes/customizer.php:327
+msgid "Transition Interval"
+msgstr ""
+
+#: includes/customizer.php:351
+msgid "Transition Style"
+msgstr ""
+
+#: includes/customizer.php:365
+msgid "Featured Slideshow Category"
+msgstr ""
+
+#: includes/customizer.php:378
+msgid "Featured Slideshow Posts Displayed"
+msgstr ""
+
+#: includes/customizer.php:390
+msgid "Home Page"
+msgstr ""
+
+#: includes/customizer.php:400
+msgid "Featured Page Left"
+msgstr ""
+
+#: includes/customizer.php:413
+msgid "Featured Page Middle"
+msgstr ""
+
+#: includes/customizer.php:426
+msgid "Featured Page Right"
+msgstr ""
+
+#: includes/customizer.php:439
+msgid "Featured News Category"
+msgstr ""
+
+#: includes/customizer.php:452
+msgid "Featured News Posts Displayed"
+msgstr ""
+
+#: includes/customizer.php:465
+msgid "Featured Tabs Category"
+msgstr ""
+
+#: includes/customizer.php:478
+msgid "Featured Tabs Displayed"
+msgstr ""
+
+#: includes/customizer.php:490
+msgid "Page Templates"
+msgstr ""
+
+#: includes/customizer.php:500
+msgid "Blog Template Category"
+msgstr ""
+
+#: includes/customizer.php:513
+msgid "Blog Posts Displayed"
+msgstr ""
+
+#: includes/customizer.php:527
+msgid "Portfolio Column Layout"
+msgstr ""
+
+#: includes/customizer.php:542
+msgid "Portfolio Template Category"
+msgstr ""
+
+#: includes/customizer.php:554
+msgid "Show Portfolio Title & Excerpt?"
+msgstr ""
+
+#: includes/customizer.php:566
+msgid "Layout"
+msgstr ""
+
+#: includes/customizer.php:575
+msgid "Enable Responsive Grid?"
+msgstr ""
+
+#: includes/customizer.php:587
+msgid "Show Post Author & Comment Link?"
+msgstr ""
+
+#: includes/customizer.php:599
+msgid "Show Blog Author & Comment Link?"
+msgstr ""
+
+#: includes/customizer.php:611
+msgid "Show Post Featured Images?"
+msgstr ""
+
+#: includes/customizer.php:623
+msgid "Show Slideshow Template Content?"
+msgstr ""
+
+#: includes/customizer.php:635
+msgid "Enable Full Width Background Image?"
+msgstr ""
+
+#: includes/customizer.php:647
+msgid "Social Links"
+msgstr ""
+
+#: includes/customizer.php:654
+msgid "Show Share Buttons on Single Posts?"
+msgstr ""
+
+#: includes/customizer.php:664
+msgid "Show Share Buttons on Blog Template?"
+msgstr ""
+
+#: includes/customizer.php:676
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/customizer.php:688
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/customizer.php:700
+msgid "Twitter User"
+msgstr ""
+
+#: includes/customizer.php:712
+msgid "LinkedIn Link"
+msgstr ""
+
+#: includes/customizer.php:724
+msgid "Google Plus Link"
+msgstr ""
+
+#: includes/customizer.php:736
+msgid "Pinterest Link"
+msgstr ""
+
+#: includes/customizer.php:748
+msgid "Instagram Link"
+msgstr ""
+
+#: includes/customizer.php:760
+msgid "YouTube Link"
+msgstr ""
+
+#: includes/customizer.php:772
+msgid "GitHub Link"
+msgstr ""
+
+#: includes/customizer.php:784
+msgid "Email"
+msgstr ""
+
+#: loop-archive.php:26
+msgid ", "
+msgstr ""
+
+#: loop-archive.php:31 loop-post.php:52
+msgid "Category:"
+msgstr ""
+
+#: loop-archive.php:31 loop-post.php:52
+msgid "Tags:"
+msgstr ""
+
+#: loop-archive.php:51 loop-page.php:24 loop-portfolio.php:71 loop-post.php:70
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: loop-page.php:8 loop-post.php:34
+msgid "Pages:"
+msgstr ""
+
+#: loop-page.php:13 loop-post.php:39
+msgid "Next"
+msgstr ""
+
+#: loop-page.php:14 loop-post.php:40
+msgid "Previous"
+msgstr ""
+
+#: loop-page.php:20
+msgid "(Edit)"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:14
+msgid "Go"
+msgstr ""
+
+#: template-archive.php:32
+msgid "By Page:"
+msgstr ""
+
+#: template-archive.php:37
+msgid "By Post:"
+msgstr ""
+
+#: template-archive.php:42
+msgid "By Month:"
+msgstr ""
+
+#: template-archive.php:45
+msgid "By Category:"
+msgstr ""

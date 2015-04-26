@@ -1,0 +1,792 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"lig",
+				"lightBlue"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"dar",
+				"darkGreen"
+			],
+			[
+				"gr",
+				"green"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"d",
+				"dddddd"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"e",
+				"eeeeee"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"li",
+				"lightBlue"
+			],
+			[
+				"te",
+				"textarea"
+			],
+			[
+				"su",
+				"subtitle"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"cont",
+				"contentTitle"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"Impor",
+				"important"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ban",
+				"banner-title"
+			],
+			[
+				"blue",
+				"lightBlue"
+			],
+			[
+				"r",
+				"rgba"
+			],
+			[
+				"dark",
+				"darkYellow"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"darkY",
+				"darkYellow"
+			],
+			[
+				"darkO",
+				"darkOrange"
+			],
+			[
+				"o",
+				"orange"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"gra",
+				"lightGray"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"sta",
+				"startups-pattern"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			],
+			[
+				"cell",
+				"cellspacing	Attr"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tit",
+				"titulo"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"ral",
+				"ralewayheavy"
+			],
+			[
+				"light",
+				"line-height"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"fn",
+				"font-family"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"pla",
+				"player-thumb"
+			],
+			[
+				"tabe",
+				"table-cell"
+			],
+			[
+				"calen",
+				"calendar-page"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"op",
+				"openRegular"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"he",
+				"height	Attr"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"the_",
+				"the_title"
+			],
+			[
+				"functio",
+				"functionality"
+			],
+			[
+				"temp",
+				"template_directory"
+			],
+			[
+				"blog",
+				"bloginfo"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"icon",
+				"icon-divider"
+			],
+			[
+				"new",
+				"news-icon"
+			],
+			[
+				"All",
+				"AllerLightRegular"
+			],
+			[
+				"al",
+				"AllerRegular"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"vide",
+				"video-banner"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"impor",
+				"important"
+			],
+			[
+				"face",
+				"facebook-icon-small"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"main",
+				"main-content"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"br",
+				"border-bottom"
+			],
+			[
+				"ligh",
+				"lightBlue"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/css/theme.styl",
+			"settings":
+			{
+				"buffer_size": 20323,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/OC2/MedSpeaks/wordpress/style.css",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/comments.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/single.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/sidebar.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/author.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/footer.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/archive.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/index.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/tag.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/search.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/category.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/404.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/article.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/content-none.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/functions.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/assets/css/theme.styl",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/style.css",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/page.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/blog.php",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Frameworks/starkersES/starkersES/archive.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/sidebar-content.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/index.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/assets/js/ux.js",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/header.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/assets/css/theme.styl",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/1409486 Pricing Page Update/pricing_bkup.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Clients/Primus/Website/EN/business/inc/inc-header.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Clients/Primus/Website/EN/business/inc/inc-footer.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Clients/Primus/Website/FR/phone/business-voip/features.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/September-D&D/code.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/Medrenlogic/LandingPage/Actualizaciones/Septiembre-2014/sender.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/September-D&D/email-2.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/S1409463 Q4 Offer Email/html-email/inside-sales.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/S1409463 Q4 Offer Email/html-email/direct-sales.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/S1409463 Q4 Offer Email/html-email/email.html",
+		"/Users/RobArpi/Downloads/seanpowell-Email-Boilerplate-c3465c0 2/email.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/error.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/gracias-por-contactarnos.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/September-D&D/email.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/assets/js/ux.js",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/error.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/gracias-por-contactarnos.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/assets/css/theme.styl",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/index.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/form-submit.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Picks/Desarrollo/js/ux.js",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/assets/fonts/DSari-font.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/ARLA/Formulario/html/index.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Picks/Desarrollo/css/theme.styl",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/S-Primus/S1407374 - Q3 Offers/Final/HPBX-HTML/email.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Primus/Website/EN/business/email/coms/S1409463/S1409463-Inside-Sales.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Primus/Website/EN/business/email/coms/S1409463/S1409463-Direct-Sales.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/Intsem/Server/products.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/BLACKIRON/business.rogers.com/styles/layout.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/BLACKIRON/business.rogers.com/fr/css/layout-fr.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/BLACKIRON/business.rogers.com/fr/includes/header-gamecentre.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/BLACKIRON/business.rogers.com/includes/header-gamecentre.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1408435 - Mobile Guide Kit/Street Email/1408435 - Mobile Street Email_002.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1408435 - Mobile Guide Kit/Hotel Email/hotel.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1408435 - Mobile Guide Kit/Airport Email/airport.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1408435 - Mobile Guide Kit/Airport Email/1408435-Airport Email_002.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1408435 - Mobile Guide Kit/Hotel Email/1408435 - Mobile Hotel Email_002.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1408435 - Mobile Guide Kit/Street Email/street.html",
+		"/Users/RobArpi/Desktop/video.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/CurataVida/wordpress/wp-content/themes/curatavida/loop.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/August14/S1407414- FTTN - Customer Email/html-email/email.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/CurataVida/wordpress/wp-content/themes/curatavida/style.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/CurataVida/wordpress/wp-content/themes/curatavida/page-about.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/CurataVida/wordpress/wp-content/themes/curatavida/page.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/CurataVida/wordpress/wp-content/themes/curatavida/page-activities.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/OC2/CurataVida/wordpress/wp-content/themes/curatavida/page-contact.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/1405289 - YE June Reminder Email/New Template/index.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Alberta Motor Association/1311607 - Re-brand & re-design email project/welcome/New Round/html-emails/welcome-mBenefits.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/S-Primus/S1407374 - Q3 Offers/Final/Business-Ethernet/email.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Alberta Motor Association/1311607 - Re-brand & re-design email project/HTML/Deals-Discounts-Member-Exclusives2.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Intuit/1407369 - QBOA Emails for Accountants/html-email/email_absolute-links-3.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Intuit/1407369 - QBOA Emails for Accountants/html-email/email_absolute-links-2.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/css/Exo2-font.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/css/layout.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/index.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/css/main.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/css/style.css",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/error.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/gracias-por-contactarnos.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/CervezaPostal/coming-soon/form-submit.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/July14/Intuit/email_absolute-links.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/July14/Intuit/email.html",
+		"/Users/RobArpi/Downloads/jquery-placeholder-master/demo.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T8/T8.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T4/T4.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T6/T6.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T7/T7_inline-css.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T6/T6_inline-css.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T5/T5.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/1405323 - Sheridan Opt-in email/email/Sheridan-Opt-in-email.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/1405323 - Sheridan Opt-in email/email/Sheridan-Opt-in-email_inline-css.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/1405323 - Sheridan Opt-in email/email/Sheridan-Opt-in-email_inline-css-safari-mac.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/1405323 - Sheridan Opt-in email/email/Sheridan-Opt-in-email_inline-css_stripped.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/1405323 - Sheridan Opt-in email/email/Sheridan-Opt-in-email_inline-css - Copy.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T5/T5_inline-css.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/Templates/T3/T3.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/Sheridan/EmailTemplates/T8/T8.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/BodyModule-Templates/two-columns_text-calendar.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/Hero-Templates/hero-module_dark-img_middle-txt.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/1311607 - Re-brand & re-design email project/welcome-mAnniversary/welcome-mBenefits.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/Verizon/communications/1405289/PT_SBS Summer Campaign email YE14 FR.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/Verizon/communications/1405289/PT_NAT Summer Campaign email YE14 FR.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/ADP/Verizon/communications/1405289/AP NAT Summer Campaign email YE14 FR.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Assets/Email Templates/HTML-Email/BodyModule-Templates/full-width-column.html",
+		"/Users/RobArpi/Documents/Proyectos/AdhocWorks/May14/1405323 - Sheridan Opt-in email/Sheridan-Opt-in-email.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Assets/Email Templates/HTML-Email/Hero-Templates/hero-module_dark-blue-stripe_splitted.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Assets/Email Templates/HTML-Email/Hero-Templates/hero-module_dark-blue-stripe.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Assets/Email Templates/HTML-Email/Hero-Templates/hero-module_white-stripe_splitted.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/Sheridan/EmailTemplates/T5/T5.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/Footer-Template/footer-module.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/BodyModule-Templates/two-columns_smallImage-largeText.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/BodyModule-Templates/full-width-title-column.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/BodyModule-Templates/two-columns_text-menu.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/BodyModule-Templates/two-columns_image-menu.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/GetCreative-HeaderTemplates/hero-module_dark-blue_simple.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Sheridan/Email Templates/HTML-Email/GetCreative-HeaderTemplates/header-module_social-media.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/1405312 - Stampede Invite OFT/html-email/index.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Robfiles/405289 - YE June Reminder Email/index.html",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/Primus/Website/EN/business/index.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/The Recovery Centre/S1401035 - The Recovery Centre Site/PHP-Template/contact-us/index.php",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/The Recovery Centre/S1401035 - The Recovery Centre Site/PHP-Template/js/easy-validation.js",
+		"/Users/RobArpi/Documents/Proyectos/AdhocWorks/May14/AdhocWebsite/site/index.html",
+		"/Users/RobArpi/Downloads/vindex.asp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".author",
+			"author",
+			"if ( ",
+			"is_author",
+			"avatar",
+			"h4",
+			"20",
+			".newsle",
+			"paging_nav",
+			"newsletter",
+			"avatar",
+			"section",
+			"<ul id=\"%1$s\" class=\"widget %2$s sidebar-nav\">",
+			"<h1 class=\"widget-title\">",
+			"<aside id=\"%1$s\" class=\"widget %2$s\">",
+			"http://arladesignlab.com",
+			"<?php if ( is_front_page() ) { ?>class=\"smooth\"<?php } ?>",
+			"www.arladesignlab.com",
+			"www.arladesignlab.com/",
+			"http://www.arladesignlab.com/",
+			"<?php if ( is_front_page() ) { ?>class=\"smooth\"<?php } ?>",
+			"! ",
+			"&& is_home()",
+			"<?php bloginfo( 'siteurl' );?>",
+			"site_url",
+			"<?php if ( is_front_page() && is_home() ) { ?> <?php bloginfo( 'site_url' );?>/ } ?>",
+			"src=\"assets",
+			"src=\"assets/",
+			"src=\"assets",
+			"<?php bloginfo( 'template_directory' ); ?>assets",
+			"?> <?php",
+			"6.",
+			"Holdings",
+			"•	",
+			"250",
+			"carousel-services",
+			"src=\"images/",
+			"width=\"328\"",
+			"style=\"padding-bottom: 5px;\"",
+			"padding-bottom: 5px;\">",
+			"<br style=\"height: 5px;\"/>&nbsp;",
+			"<br/>&nbsp;",
+			"&#8226;",
+			": orange;",
+			"<tr bgcolor=\"#1d4587\">",
+			"<td valign=\"midle\" align=\"left\" width=\"12\">",
+			"<td valign=\"midle\" align=\"left\" width=\"328\">",
+			"<td valign=\"midle\" align=\"left\" width=\"325\">",
+			"<td valign=\"midle\" align=\"left\" width=\"15\">",
+			"nosotros",
+			"MT10",
+			"<br class=\"only-devices\" style=\"display: none;\" />",
+			"<br class=\"only-devices\" />",
+			"a tablet",
+			"align=\"righ",
+			"<table width=\"20\" border=\"0\" cellpadding=\"0\"\n cellspacing=\"0\" align=\"left\" bgcolor=\"#ffffff\" class=\"deviceWidth\">\n                            <tr>\n                                <td>&nbsp;</td>\n                            </tr>\n                        </table>",
+			"type=\"text/css\"",
+			"servicios",
+			";",
+			":",
+			"required>",
+			"ingreses",
+			"#0e303f",
+			"nombre",
+			"xs",
+			"<h2 class=\"title\">",
+			"Orange",
+			"Yellow",
+			"Green",
+			"green",
+			"Yellow",
+			"yellow",
+			"div",
+			"col-sm-4",
+			"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eveniet minus, ut doloremque iusto.</p>",
+			"ffffff",
+			"f8fdff",
+			"something",
+			"class=\"tile\"",
+			"como-trabajamos",
+			"<div class=\"col-xs-4",
+			"<h2>",
+			"<img src=\"assets/img/\" alt=\"\">",
+			"12",
+			"<li>",
+			"#ebebeb",
+			"<sup>",
+			"<li>",
+			"ebebeb",
+			"30",
+			"<td align=\"center\" style=\"border-bottom: 1px solid #cccccc; padding: 3px;\">\n	              			<img src=\"images/seperators.jpg\" width=\"3\" height=\"62\">\n	              		</td>",
+			"padding: 3px 0;",
+			"<a href=\"#\">",
+			"style=\"border-bottom: 1px solid #cccccc;\"",
+			"ADP.ca/gomobile",
+			"the ADP Mobile Solutions app",
+			"The ADP Mobile Solutions app",
+			"The ADP Mobile Solutions App",
+			"the ADP Mobile Solutions",
+			"The ADP Mobile Solutions",
+			"#ebebeb",
+			"src=\"images/",
+			"margin: 0 0 5px 0;",
+			"spanstyle",
+			"g   ",
+			"ebebeb",
+			"Stream HD video, webinars, and host video calls",
+			"table",
+			"See",
+			"<ul style=\"margin: 0 0 20px 20px; padding: 0;\">",
+			".deviceWidth",
+			" width=\"265\"",
+			"65",
+			"270",
+			"<td width=\"",
+			"<td width=\"30\"></td>",
+			"<td width=\"5%\">",
+			", quis dictum orci",
+			"Nulla a arcu et neque scelerisque tincidunt. Quisque ultrices nibh at dapibus lobortis.",
+			"<span>",
+			"<span  style=\"",
+			"<span>",
+			"span",
+			"5",
+			"<?php the_",
+			"1f4167",
+			"5",
+			"	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/theme.styl",
+					"settings":
+					{
+						"buffer_size": 20323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9384,
+								9406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11398.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true
+}
