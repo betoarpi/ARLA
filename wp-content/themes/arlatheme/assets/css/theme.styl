@@ -688,22 +688,28 @@ strong
 
 // Sliding Banner 
 .sliding-banner
+	display block
 	position relative
+	width 100%
 	z-index 0 
 
 	.bxslider-container
-		float left
+		display block
 		overflow hidden
 		width 100%
+		position relative
+		z-index 0
 
 		ul.bxslider
+			float left
 			margin 0
+			position relative
 			padding 0
+			z-index 0
 
 			li 
 				float left
 				margin 0
-				height 577px
 				padding 157px 0 0 0
 				position relative
 				width 100%
@@ -715,43 +721,30 @@ strong
 				.banner-title
 					font-family bannerTitle
 					font-size 2.75em
+					margin-top 120px
+					position absolute
+					right 0
+					text-align right
+					top 60%
 
 					span
 						font-family copyTxt
 						font-size 0.7em
 
 				&.startups
-					background darkBlue url(../img/sliding-banner/startups-pattern.png) repeat
-					background-size 240px 240px
+					background darkBlue url(../img/sliding-banner/startups-2.png) center center no-repeat
+					background-size cover
 					color white
-
-					img
-						top 0
-						left 0
-
-					.banner-title
-						margin-top 120px
-						text-align right
 
 				&.tu-proyecto
-					background #F38630 url(../img/sliding-banner/requirements-pattern.png) repeat
-					background-size 240px 240px
+					background #F38630 url(../img/sliding-banner/requirements-2.png) center center no-repeat
+					background-size cover
 					color white
-
-					img
-						top -10px
-						right 0
-
-					.banner-title
-						margin-top 90px
 
 				&.ideas
-					background #15b0bf url(../img/sliding-banner/ideas.png) left bottom no-repeat
+					background #15b0bf url(../img/sliding-banner/ideas-2.png) center center no-repeat
+					background-size cover
 					color white
-
-					.banner-title
-						margin-top 20px
-						text-align right
 
 				&.gracias,
 				&.error
@@ -770,13 +763,14 @@ strong
 			display block
 			font-family bannerTxt
 			font-size 1.5em
-			margin -123px auto 0 auto
+			margin 0 auto
 			padding 7px 0
 			position relative
 			text-align center
 			text-decoration none
 			text-shadow 1px 1px 2px darkGreen
 			width 250px
+			top -25px
 			z-index 10
 
 			&:hover
@@ -1136,7 +1130,6 @@ strong
 		.bxslider-container
 			ul.bxslider
 				li
-					height 520px
 					.banner-title
 						font-size 2.2em
 
@@ -1163,10 +1156,9 @@ strong
 		.bxslider-container
 			ul.bxslider
 				li
-					height 430px
-					padding-top 100px
-					.banner-title
-						font-size 1.7em
+					// padding-top 100px
+					// .banner-title
+					// 	font-size 1.7em
 
 					img
 						max-width 280px
@@ -1206,11 +1198,16 @@ strong
 		.bxslider-container
 			ul.bxslider
 				li
-					height 430px
 					padding-top 100px
 					
 					img
 						display none
+					
+					.banner-title
+						position initial
+						display block
+						margin 0 auto
+						width 80%
 
 					&.startups,
 					&.tu-proyecto,
@@ -1262,7 +1259,7 @@ strong
 		.bxslider-container
 			ul.bxslider
 				li
-					&.startups,
+					// &.startups,
 					&.tu-proyecto,
 					&.ideas
 						.banner-title

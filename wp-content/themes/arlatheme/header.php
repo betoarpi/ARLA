@@ -83,22 +83,21 @@
 	<div class="sliding-banner container-fluid">
 		<div class="bxslider-container">
 			<ul class="bxslider">
-				<li class="startups">
+				<li class="startups full-height">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/sliding-banner/startups.png" alt="Potenciamos las PyMes y Startups">
+								<!-- <img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/sliding-banner/startups.png" alt="Potenciamos las PyMes y Startups"> -->
 								<h1 class="banner-title">Somos una Agencia Creativa Digital.<br>
-									<span>Potenciamos el crecimiento de las PyMes y Startups.</span></h1>
+								<span>Potenciamos el crecimiento de las PyMes y Startups.</span></h1>
 							</div>
 						</div>
 					</div>
 				</li>
-				<li class="tu-proyecto">
+				<li class="tu-proyecto full-height">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/sliding-banner/requirements.png" alt="Le damos vida a tu proyecto">
 								<h1 class="banner-title">Tus ideas demandan<br>
 								requerimientos únicos.<br>
 								<span>Nosotros lo entendemos y le damos vida a tu proyecto.</span></h1>
@@ -106,7 +105,7 @@
 						</div>
 					</div>
 				</li>
-				<li class="ideas">
+				<li class="ideas full-height">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">

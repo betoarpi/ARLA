@@ -43,7 +43,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<p class="Tcenter">&copy;2014 ARLA Design Lab. Todos los derechos reservados.</p>
+					<p class="Tcenter">&copy;<?= date('Y'); ?> ARLA Design Lab. Todos los derechos reservados.</p>
 				</div>
 			</div>
 		</div>

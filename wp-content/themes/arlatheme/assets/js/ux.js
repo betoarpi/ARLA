@@ -1,10 +1,14 @@
 $(function(){
 	//BX Slider
 	$('.bxslider').bxSlider({
-		auto: true,
+		auto: false,
 		autoHover: true,
-		pause: 6500,
+		pause: 500,
 		speed: 1000,
+		pager: false,
+		controls: false,
+		adaptiveHeight: true,
+		randomStart: true,
 	});
 
 	//Navigation Effect
@@ -51,4 +55,20 @@ $(function(){
 	      $('.header').removeClass('sticky-header');
 	    });
   	}
+
+  	// Full Height elements
+	function fixHeight(){
+		//debugger;
+		var totalHeight = $(window).height();
+		var padding = 270;
+		minHeight = totalHeight-padding;
+		$('.full-height').css('height',minHeight);
+		$('.bx-viewport').css('min-height', minHeight);
+	};
+	fixHeight();
+
+	// Resize for Full Height elements
+	$(window).resize(function(){
+		fixHeight();
+	});
 });
