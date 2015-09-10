@@ -721,7 +721,6 @@ strong
 				.banner-title
 					font-family bannerTitle
 					font-size 2.75em
-					margin-top 120px
 					position absolute
 					right 0
 					text-align right
@@ -1137,7 +1136,7 @@ strong
 						max-width 350px
 
 					&.ideas
-						background-size 800px 230px
+						// background-size 800px 230px
 
 @media screen and (max-width:992px)
 	.main-nav
@@ -1172,10 +1171,10 @@ strong
 							top 30px
 
 					&.ideas
-						background-size 600px 173px
+						// background-size 600px 173px
 
-						.banner-title
-							margin-top 70px
+						// .banner-title
+						// 	margin-top 70px
 
 @media screen and (max-width:768px)
 	.sticky-header
@@ -1204,10 +1203,11 @@ strong
 						display none
 					
 					.banner-title
-						position initial
-						display block
-						margin 0 auto
+						top 80px
 						width 80%
+						left 50%
+						transform translateX(-50%)
+						margin-top 0
 
 					&.startups,
 					&.tu-proyecto,
@@ -1216,10 +1216,10 @@ strong
 							text-align center
 
 					&.ideas
-						background-image none
+						// background-image none
 
-						.banner-title
-							margin-top 120px
+						// .banner-title
+						// 	margin-top 120px
 
 	#contactanos 
 		background-size 100%
@@ -1259,11 +1259,15 @@ strong
 		.bxslider-container
 			ul.bxslider
 				li
+					.banner-title
+						font-size 28px
+						line-height 120%
+						margin-top 0px
 					// &.startups,
-					&.tu-proyecto,
-					&.ideas
-						.banner-title
-							margin-top 100px
+					// &.tu-proyecto,
+					// &.ideas
+					// 	.banner-title
+					// 		margin-top 100px
 
 	#contactanos 
 		padding-top 150px

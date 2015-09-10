@@ -57,10 +57,15 @@ $(function(){
   	}
 
   	// Full Height elements
+  	if (window.screen.width < 479) {
+		var padding = 50;
+	}
+	else {
+		var padding = 270;
+	}
 	function fixHeight(){
 		//debugger;
 		var totalHeight = $(window).height();
-		var padding = 270;
 		minHeight = totalHeight-padding;
 		$('.full-height').css('height',minHeight);
 		$('.bx-viewport').css('min-height', minHeight);
