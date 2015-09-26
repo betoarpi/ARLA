@@ -4,116 +4,44 @@
 		"selected_items":
 		[
 			[
-				"fon",
-				"font-family"
-			],
-			[
-				"lig",
-				"lightBlue"
-			],
-			[
-				"bo",
-				"both"
-			],
-			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"dar",
-				"darkGreen"
-			],
-			[
-				"gr",
-				"green"
-			],
-			[
 				"im",
-				"img"
-			],
-			[
-				"bor",
-				"border-bottom"
-			],
-			[
-				"d",
-				"dddddd"
-			],
-			[
-				"s",
-				"solid"
-			],
-			[
-				"e",
-				"eeeeee"
-			],
-			[
-				"comm",
-				"comment"
-			],
-			[
-				"tex",
-				"text-align"
-			],
-			[
-				"bord",
-				"border"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"li",
-				"lightBlue"
-			],
-			[
-				"te",
-				"textarea"
-			],
-			[
-				"su",
-				"subtitle"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"bl",
-				"block"
-			],
-			[
-				"cont",
-				"contentTitle"
-			],
-			[
-				"min",
-				"min-height"
-			],
-			[
-				"Impor",
 				"important"
 			],
 			[
-				"pa",
-				"padding"
+				"mar",
+				"margin-top"
 			],
 			[
 				"di",
 				"display"
 			],
 			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
 				"ba",
 				"background"
 			],
 			[
+				"tex",
+				"text-align"
+			],
+			[
 				"ban",
 				"banner-title"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"dar",
+				"darkBlue"
 			],
 			[
 				"blue",
@@ -126,6 +54,22 @@
 			[
 				"dark",
 				"darkYellow"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"lig",
+				"lightBlue"
+			],
+			[
+				"li",
+				"lightGray"
 			],
 			[
 				"b",
@@ -156,12 +100,24 @@
 				"font-family"
 			],
 			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
 				"a",
 				"auto"
 			],
 			[
 				"w",
 				"white"
+			],
+			[
+				"te",
+				"text-align"
 			],
 			[
 				"sta",
@@ -188,6 +144,10 @@
 				"font-size"
 			],
 			[
+				"co",
+				"color"
+			],
+			[
 				"tit",
 				"titulo"
 			],
@@ -198,6 +158,10 @@
 			[
 				"ral",
 				"ralewayheavy"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"light",
@@ -284,6 +248,10 @@
 				"list-style"
 			],
 			[
+				"min",
+				"min-width"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -364,10 +332,18 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/theme.styl",
+			"contents": "<?php\n	if ( is_front_page() && is_home() ) {\n	  // Default homepage\n	} elseif ( is_front_page() ) {\n	  // static homepage\n	} elseif ( is_home() ) {\n	  // blog page\n	} else {\n	  //everything else\n	}\n?>\n\n<?php if ( is_front_page() && is_home() ) { ?> <?php } ?>\n\n<?php if ( ! is_front_page() && is_home() ) { ?> <?php } ?>\n\n\n<?php if ( have_posts() ) : ?>\n	<?php while ( have_posts() ) : the_post(); ?>    \n	<?php endwhile; ?>\n<?php endif; ?>\n\n\n\n	<?php if ( is_front_page() ) { ?>\n	<script type=\"text/javascript\">\n		$('.devices-menu').on('click', function(){\n			event.preventDefault()\n		});\n	</script>\n	<?php }?>",
 			"settings":
 			{
-				"buffer_size": 20323,
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "404.php",
+			"settings":
+			{
+				"buffer_size": 843,
 				"line_ending": "Unix"
 			}
 		}
@@ -404,30 +380,20 @@
 	},
 	"file_history":
 	[
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/OC2/MedSpeaks/wordpress/style.css",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/comments.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/single.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/sidebar.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/author.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/footer.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/archive.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/index.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/tag.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/search.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/category.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/404.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/article.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/content-none.php",
-		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/functions.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/assets/css/theme.styl",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/style.css",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/page.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/blog.php",
 		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Frameworks/starkersES/starkersES/archive.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/archive.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/sidebar.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/sidebar-content.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/404.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/article.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/index.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/assets/js/ux.js",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/header.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/wordpress/wp-content/themes/arlatheme/footer.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/ARLA/Website/assets/css/theme.styl",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Robfiles/AdhocWorks/September14/1409486 Pricing Page Update/pricing_bkup.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox (AdhocWorks)/Clients/Primus/Website/EN/business/inc/inc-header.php",
@@ -531,7 +497,17 @@
 		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/The Recovery Centre/S1401035 - The Recovery Centre Site/PHP-Template/contact-us/index.php",
 		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/The Recovery Centre/S1401035 - The Recovery Centre Site/PHP-Template/js/easy-validation.js",
 		"/Users/RobArpi/Documents/Proyectos/AdhocWorks/May14/AdhocWebsite/site/index.html",
-		"/Users/RobArpi/Downloads/vindex.asp"
+		"/Users/RobArpi/Downloads/vindex.asp",
+		"/Users/RobArpi/Dropbox (AdhocWorks)/Clients/BLACKIRON/datacentres.rogers.com/fr/contact/email-sales.php",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/css/gradients.css",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/js/ux.js",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/deportes-calendario.html",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/registro.html",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/deportes-matchups.html",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/deportes-estadisticas.html",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/deportes-estadisticas-individuales.html",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/css/sport-teams-logos.styl",
+		"/Users/RobArpi/Dropbox/Picks/Desarrollo/sports-gambling.sublime-project"
 	],
 	"find":
 	{
@@ -549,21 +525,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			".author",
-			"author",
-			"if ( ",
-			"is_author",
-			"avatar",
-			"h4",
-			"20",
-			".newsle",
-			"paging_nav",
-			"newsletter",
-			"avatar",
-			"section",
-			"<ul id=\"%1$s\" class=\"widget %2$s sidebar-nav\">",
-			"<h1 class=\"widget-title\">",
-			"<aside id=\"%1$s\" class=\"widget %2$s\">",
 			"http://arladesignlab.com",
 			"<?php if ( is_front_page() ) { ?>class=\"smooth\"<?php } ?>",
 			"www.arladesignlab.com",
@@ -676,7 +637,22 @@
 			"<?php the_",
 			"1f4167",
 			"5",
-			"	"
+			"	",
+			"url('Exo2.0",
+			"b22022",
+			"CF2528",
+			"cf2528",
+			"241319",
+			"ea4e3c",
+			".form-error",
+			"004678",
+			"contacto@arladesignlab.com",
+			"efono",
+			"éfono",
+			"Tel",
+			"tel",
+			"Tel",
+			"contacto@arladesignlab.com"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -694,32 +670,58 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/theme.styl",
 					"settings":
 					{
-						"buffer_size": 20323,
+						"buffer_size": 610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9384,
-								9406
+								610,
+								610
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11398.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "404.php",
+					"settings":
+					{
+						"buffer_size": 843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

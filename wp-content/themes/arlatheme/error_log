@@ -1,0 +1,8 @@
+[08-Feb-2015 00:38:31 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/404.php on line 9
+[25-May-2015 12:01:08 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/index.php on line 9
+[21-Jul-2015 21:19:51 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/index.php on line 9
+[28-Jul-2015 01:29:26 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/index.php on line 9
+[28-Jul-2015 01:29:27 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/index.php on line 9
+[02-Aug-2015 01:51:09 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/index.php on line 9
+[17-Sep-2015 12:37:11 America/Chicago] PHP Fatal error:  Call to undefined function post_password_required() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/comments.php on line 16
+[22-Sep-2015 17:55:24 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/betoarpi/public_html/arladesignlab.com/wp-content/themes/arlatheme/index.php on line 9

@@ -1,0 +1,681 @@
+// Imported Stylesheets
+@import 'jquery.bxslider.css'
+@import 'bootstrap.min.css'
+@import '../fonts/icons.css'
+@import '../fonts/DSari-font.css'
+@import 'customize.styl'
+@import 'nib/vendor'
+
+vendor-prefixes = webkit moz o ms official
+
+// Color Variables
+white = #ffffff
+black = #0a0a16
+gray = #727272
+lightGray = #a1a3a7
+darkBlue = #0e303f
+navColor = #374b56
+orange = #f5821f
+darkOrange = #d36f24
+lightBlue = #62d0df
+yellow = #fec00f
+darkYellow = #f99b1c
+green = #c2d64c
+darkGreen = #b1be46
+
+// Color for Buttons
+
+// Color for Social icons
+
+// Font Variables
+bannerTitle = 'DSariBlack', Trebuchet MS, sans-serif
+bannerTxt = 'DSariMedium', Trebuchet MS, sans-serif
+copyTxt = 'DSariLight', Trebuchet MS, sans-serif
+title = 'DSariBold', Trebuchet MS, sans-serif
+mainTitle = 'DSariHeavy', Trebuchet MS, sans-serif
+
+// -------------- Theme Styles -------------- //
+
+// General Styles
+html
+	font-size 16px
+	max-width 100%
+
+body
+	color gray
+	background white
+	font-family copyTxt
+	font-size 62.5% /* 1em = 10px */
+	max-width 100%
+
+a 
+	transition all .2s ease-in-out
+
+strong
+	font-family title
+
+::-webkit-input-placeholder
+	color #2C5871
+:-moz-placeholder
+	color #2C5871
+::-moz-placeholder
+	color #2C5871
+:-ms-input-placeholder
+	color #2C5871
+
+.ui-loader
+	display none
+
+.hidden-seo
+	height 0
+	left -9999px
+	position absolute
+	top -9999px
+	width 0
+
+.header,
+.sliding-banner 
+	font-size 1.6em
+
+// Header
+.header 
+	display block
+	position absolute
+	top 0
+	width 100%
+	z-index 10
+
+	&.sticky-header
+		padding-bottom 0
+		position fixed
+		top 0
+		transition all 0.2s ease-in-out
+
+		.main-nav
+			background darkBlue
+			border-bottom 4px solid black
+
+			a 
+				color white
+
+				&:hover
+					color orange
+
+.main-nav 
+	background white
+	border-radius 5px
+	border-bottom 4px solid lightGray
+	color navColor
+	margin 2em 0
+	overflow hidden
+	padding 10px 20px 
+
+	.logo
+		float left
+		margin 0 20px 0 0
+		width 180px
+
+		a 
+			display block 
+			width 100%
+
+			img 
+				display block
+				width 100%
+
+	ul 
+		float right
+		margin 1.5em 0 0 0
+		padding 0
+
+		li 
+			display inline-block
+			margin 0 0.7em
+
+			a 
+				color navColor
+				font-family mainTitle
+				text-transform uppercase
+
+			:hover
+				color orange
+				text-decoration none
+
+	.devices-menu 
+		display none
+		color navColor
+		float right
+		font-size 1.5em
+		font-weight normal
+		margin 20px 10px 0 0
+
+		&:hover
+			color orange
+			text-decoration none
+
+// Sliding Banner 
+.sliding-banner
+	position relative
+	z-index 0 
+
+	.bxslider-container
+		float left
+		overflow hidden
+		width 100%
+
+		ul.bxslider
+			margin 0
+			padding 0
+
+			li 
+				float left
+				margin 0
+				height 577px
+				padding 157px 0 0 0
+				position relative
+				width 100%
+
+				img 
+					position absolute
+					width 400px
+
+				.banner-title
+					font-family bannerTitle
+					font-size 2.75em
+
+					span
+						font-family copyTxt
+						font-size 0.7em
+
+				&.startups
+					background darkBlue url(../img/sliding-banner/startups-pattern.png) repeat
+					background-size 240px 240px
+					color white
+
+					img
+						top 0
+						left 0
+
+					.banner-title
+						margin-top 120px
+						text-align right
+
+				&.tu-proyecto
+					background #F38630 url(../img/sliding-banner/requirements-pattern.png) repeat
+					background-size 240px 240px
+					color white
+
+					img
+						top -10px
+						right 0
+
+					.banner-title
+						margin-top 90px
+
+				&.ideas
+					background #15b0bf url(../img/sliding-banner/ideas.png) left bottom no-repeat
+					color white
+
+					.banner-title
+						margin-top 20px
+						text-align right
+
+				&.gracias,
+				&.error
+					background #15b0bf
+					color white
+
+					.banner-title
+						margin-top 120px
+						text-align center
+
+		.platicanos-btn
+			background green
+			border-bottom 3px solid darkGreen
+			border-radius 5px
+			color white
+			display block
+			font-family bannerTxt
+			font-size 1.5em
+			margin -123px auto 0 auto
+			padding 7px 0
+			position relative
+			text-align center
+			text-shadow 1px 1px 2px darkGreen
+			width 250px
+			z-index 10
+
+			&:hover
+				background yellow
+				border-bottom 3px solid darkYellow
+				text-decoration none
+				text-shadow 1px 1px 2px darkYellow
+
+			&:active
+				border-bottom 0px solid transparent
+				margin -120px auto 0 auto
+
+.bx-wrapper .bx-viewport
+	box-shadow none
+
+.bx-viewport
+	border none !important
+	left 0 !important
+	margin 0
+	padding 0
+
+.bx-wrapper .bx-pager 
+	bottom 80px
+	position relative
+	text-align right
+
+.bx-wrapper .bx-pager.bx-default-pager a
+	background rgba(255,255,255,0.4)
+	border-radius 50%
+	height 20px
+	text-indent 9999999999px
+	width 20px
+	
+	&.active
+		background lightBlue
+
+	&:hover
+		background rgba(255,255,255,1)
+
+.bx-wrapper .bx-controls-direction a
+	transition none
+
+// Servicios
+#servicios 
+	float left
+	font-size 1.6em 
+	margin -28px 0 0 0
+	padding 3.5em 0 2em 0
+	width 100%
+
+	.servicio
+		margin-bottom 2em
+		text-align center
+
+		.title 
+			color darkBlue
+			font-family title
+			font-size 1.5em
+
+			hr 
+				border none
+				border-bottom 1px solid darkBlue
+				display block
+				margin 0.6em auto
+				width 20%
+
+		.servicio-icono
+			display block
+			width 100%
+
+			img
+				display block
+				margin 0 auto
+				width 115px
+
+//Nuestro Proceso
+#nuestro-proceso
+	background linear-gradient(160deg, #1695a4 0%,#1695a4 50%,#15b0bf 50%,#15b0bf 100%)
+	color white
+	float left
+	font-size 1.6em 
+	padding 3em 0
+	width 100%
+
+	.title 
+		font-family title
+		text-align center
+
+	.proceso-columna
+		text-align center
+
+		.subtitle
+			display block
+			font-family title
+			margin 0 auto
+			padding-bottom 10px
+			text-align center
+			width 60%
+
+			hr 
+				border none
+				border-bottom 1px solid white
+				display block
+				margin 0.6em auto
+				width 30%
+
+		.process-icon
+			clear both
+			display block
+			height 62px
+			margin 0 auto 1em auto
+			width 62px
+
+			img
+				display block
+				margin 0 auto
+				width 62px
+
+//Nosotros
+#nosotros 
+	background #fefefe
+	float left
+	font-size 1.6em
+	padding 3em 0
+	width 100%
+
+	.title 
+		display block
+		color darkBlue
+		font-family bannerTitle
+		margin 0 auto 0.8em auto
+		text-align center
+		text-transform uppercase
+		max-width 380px
+
+		hr 
+			border none
+			border-bottom 1px solid lightGray
+			display block
+			margin 0.6em auto
+			width 60%
+
+	article 
+		text-align justify
+
+//Contactanos
+#contactanos 
+	background #2C5871 url(../img/contact-graphic.png) center top no-repeat
+	color white
+	float left
+	font-size 1.6em
+	padding 265px 0 3em 0
+	width 100%
+
+	.contactanos-header
+		border-bottom 1px dashed rgba(255,255,255,0.15)
+		padding-bottom 2em
+
+	.title
+		display block
+		font-family bannerTitle
+		text-align center
+		text-transform uppercase
+
+		hr 
+			border none
+			border-bottom 1px solid rgba(255,255,255,0.5)
+			display block
+			margin 0.2em auto 0.6em auto
+			width 10%
+
+	.contact-options
+		display block
+		margin 0
+		padding 0
+		width 100%
+
+		li 
+			float left
+			margin-bottom 10px
+			width 100%
+
+			span 
+				background white
+				border-radius 50%
+				color #2C5871
+				display inline-block
+				font-size 1.2em
+				margin 3px 5px 0 0
+				padding 5px
+				vertical-align middle
+
+			a 
+				color white
+				text-decoration none
+
+				&:hover
+					color yellow
+
+	.contact-form
+		form 
+			input,
+			textarea,
+			select 
+				background darkBlue
+				border none
+				border-radius 3px
+				color white
+				margin-bottom 1em
+				padding 6px 10px
+
+			select
+				height 34px
+				min-height 34px
+				width 100%
+
+			.enviar-btn
+				background orange
+				border-bottom 3px solid darkOrange
+				border-radius 5px
+				color white
+				display block
+				float right
+				font-family bannerTxt
+				font-size 1.2em
+				padding 7px 0
+				text-align center
+				text-shadow 1px 1px 2px darkOrange
+				width 150px
+
+				&:hover
+					background yellow
+					border-bottom 3px solid darkYellow
+					text-shadow 1px 1px 2px darkYellow
+
+				&:active
+					border-bottom 0px solid transparent
+					margin 3px auto 0 auto
+
+			.form-error
+				color yellow
+
+#footer
+	background darkBlue
+	color rgba(255,255,255,0.6)
+	float left
+	font-size 1.6em
+	padding 1em 0
+	width 100%
+
+	p 
+		margin 0
+
+//Old Browsers
+.chromeframe
+	background white
+	border-bottom 1px solid lightGray
+	box-shadow 0 4px 10px rgba(0,0,0,0.35)
+	display block
+	font-size 1.6em
+	margin 0
+	padding 10px 0
+	position absolute
+	top 0
+	text-align center
+	width 100%
+	z-index 1000
+
+	.btn-primary
+		background #2c5871
+		border none
+		border-bottom 3px solid darkBlue
+		border-radius 5px
+		text-shadow 1px 1px 2px darkBlue
+
+		&:hover
+			background orange
+			border-bottom 3px solid darkOrange
+			text-shadow 1px 1px 2px darkOrange
+
+		&:active
+			border-bottom 0px solid transparent
+			margin 3px auto 0 auto
+
+	.btn-success
+		background green
+		border none
+		border-bottom 3px solid darkGreen
+		border-radius 5px
+		text-shadow 1px 1px 2px darkGreen
+
+		&:hover
+			background orange
+			border-bottom 3px solid darkOrange
+			text-shadow 1px 1px 2px darkOrange
+
+		&:active
+			border-bottom 0px solid transparent
+			margin 3px auto 0 auto
+
+// Media Queries
+@media screen and (max-width:1200px)
+	.sliding-banner
+		.bxslider-container
+			ul.bxslider
+				li
+					height 520px
+					.banner-title
+						font-size 2.2em
+
+					img
+						max-width 350px
+
+					&.ideas
+						background-size 800px 230px
+
+@media screen and (max-width:992px)
+	.main-nav
+		ul
+			border-top 1px solid #eee
+			display none
+			float left
+			padding-top 1em
+			width 100%
+
+		.devices-menu 
+			display block
+
+	.sliding-banner
+		.bxslider-container
+			ul.bxslider
+				li
+					height 430px
+					padding-top 100px
+					.banner-title
+						font-size 1.7em
+
+					img
+						max-width 280px
+
+					&.startups
+						img
+							top 40px
+
+					&.tu-proyecto
+						img
+							top 30px
+
+					&.ideas
+						background-size 600px 173px
+
+						.banner-title
+							margin-top 70px
+
+@media screen and (max-width:768px)
+	.sticky-header
+		.main-nav
+			border-radius 0
+			margin-top 0px
+
+	.main-nav
+		font-size 0.9em
+		ul
+			text-align center
+			li 
+				display inline-block
+				float none
+				font-size 1.2em
+				padding 6px 0
+				width 100%
+			
+	.sliding-banner
+		.bxslider-container
+			ul.bxslider
+				li
+					height 430px
+					padding-top 100px
+					
+					img
+						display none
+
+					&.startups,
+					&.tu-proyecto,
+					&.ideas
+						.banner-title
+							text-align center
+
+					&.ideas
+						background-image none
+
+						.banner-title
+							margin-top 120px
+
+	#contactanos 
+		background-size 100%
+		.contact-options 
+			display block
+			overflow hidden
+			margin-bottom 2em
+			width 100%
+
+			li 
+				float left
+				text-align center
+				width 33%
+
+@media screen and (max-width:480px)
+	.bx-wrapper
+		.bx-next
+			right 0
+		.bx-prev
+			left 0
+
+	.sliding-banner
+		.bxslider-container
+			ul.bxslider
+				li
+					&.startups,
+					&.tu-proyecto,
+					&.ideas
+						.banner-title
+							margin-top 100px
+
+	#contactanos 
+		padding-top 150px
+		.contact-options 
+			li 
+				width 100%
+
+	#nuestro-proceso
+		p 
+			width 100%
+
+	.contactanos-header
+		p 
+			width 100%
