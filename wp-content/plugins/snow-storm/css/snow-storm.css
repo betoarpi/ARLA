@@ -1,0 +1,9 @@
+.snow-storm #farbtastic {
+	position: absolute;
+	background: white;
+	padding: 5px;
+	border: 1px #cccccc solid;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
