@@ -11,7 +11,7 @@ get_header(); ?>
 	<?php if ( is_front_page() ) { ?>
 	<div id="servicios" class="container-fluid">
 		<div class="container">
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-sm-4 servicio diseno-digital">
 					<figure class="servicio-icono">
 						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/diseno-digital.png" alt="Ícono Diseño Digital">
@@ -20,13 +20,7 @@ get_header(); ?>
 					<p>Comunicamos ideas y diseñamos experiencias para audiencias digitales.</p>
 				</div>
 
-				<div class="col-sm-4 servicio">
-					<figure class="servicio-icono">
-						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/desarrollo-web.png" alt="Ícono Desarrollo Web">
-					</figure>
-					<h2 class="title">Diseño y Desarrollo Web<hr></h2>
-					<p>Desarrollamos sitios web responsivos que permiten que tus clientes se conecten rápidamente a tus productos o servicios.</p>
-				</div>
+				
 
 				<div class="col-sm-4 servicio">
 					<figure class="servicio-icono">
@@ -35,9 +29,6 @@ get_header(); ?>
 					<h2 class="title">Marketing Digital<hr></h2>
 					<p>Creamos estrategias de marketing que enganchan a tu audiencia con tu marca y hacen crecer tu empresa.</p>
 				</div>
-			</div>
-			
-			<div class="row">
 				<div class="col-sm-4 servicio">
 					<figure class="servicio-icono">
 						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/posicionamiento.png" alt="Ícono Posicionamiento en Buscadores">
@@ -45,21 +36,29 @@ get_header(); ?>
 					<h2 class="title">Posicionamiento (SEO)<hr></h2>
 					<p>Monitoreamos y analizamos el tráfico de tu página de internet para darte mayor presencia en la red.</p>
 				</div>
-
-				<div class="col-sm-4 servicio">
-					<figure class="servicio-icono">
-						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/consultoria-creativa.png" alt="Ícono Consultoría Creativa">
-					</figure>
-					<h2 class="title">Consultoría Creativa<hr></h2>
-					<p>Entendemos las necesidades digitales de tu empresa, convirtiéndolas en fortalezas para lograr tus objetivos.</p>
-				</div>
-
+			</div> -->
+			
+			<div class="row">
 				<div class="col-sm-4 servicio">
 					<figure class="servicio-icono">
 						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/outsourcing.png" alt="Ícono Outsourcing">
 					</figure>
 					<h2 class="title">Outsourcing<hr></h2>
 					<p>Nuestro servicio de outsourcing es el complemento creativo de tu equipo de trabajo.</p>
+				</div>
+				<div class="col-sm-4 servicio">
+					<figure class="servicio-icono">
+						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/desarrollo-web.png" alt="Ícono Desarrollo Web">
+					</figure>
+					<h2 class="title">Diseño y Desarrollo Web<hr></h2>
+					<p>Desarrollamos sitios web responsivos que permiten que tus clientes se conecten rápidamente a tus productos o servicios.</p>
+				</div>
+				<div class="col-sm-4 servicio">
+					<figure class="servicio-icono">
+						<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/consultoria-creativa.png" alt="Ícono Consultoría Creativa">
+					</figure>
+					<h2 class="title">Consultoría Creativa<hr></h2>
+					<p>Entendemos las necesidades digitales de tu empresa, convirtiéndolas en fortalezas para lograr tus objetivos.</p>
 				</div>
 			</div>
 		</div>
