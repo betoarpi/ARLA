@@ -12,6 +12,7 @@ jQuery(document).ready(function() {
 		snowStorm.snowStick = <?php if (get_option('snowstorm_snowStick') == "Y") : ?>true<?php else : ?>false<?php endif; ?>;
 		snowStorm.useMeltEffect = <?php if (get_option('snowstorm_useMeltEffect') == "Y") : ?>true<?php else : ?>false<?php endif; ?>;
 		snowStorm.useTwinkleEffect = <?php if (get_option('snowstorm_useTwinkleEffect') == "Y") : ?>true<?php else : ?>false<?php endif; ?>;
+		snowStorm.zIndex = 999999;
 	}
 });
 </script>
