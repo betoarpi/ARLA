@@ -6,7 +6,7 @@ Description: Display falling snow flakes on the front of your WordPress website 
 Plugin URI: http://tribulant.com
 Author: Tribulant Software
 Author URI: http://tribulant.com
-Version: 1.4
+Version: 1.4.2
 */
 
 if (!defined('DS')) { define('DS', DIRECTORY_SEPARATOR); }
@@ -35,22 +35,7 @@ function snow_storm_links($links = array()) {
 	return $links;
 }
 
-function snow_storm() {
-	if (!is_admin()) {
-		global $post;
-		$pp = get_option('snowstorm_pp');
-		
-		if (empty($pp) || (!empty($pp) && in_array($post -> ID, $pp))) {
-			wp_enqueue_script('snow-storm', plugins_url() . DS . 'snow-storm' . DS . 'snow-storm.js', false, '1.41');
-		}
-	} else {
-		if (!empty($_GET['page']) && $_GET['page'] == "snow-storm") {
-			wp_enqueue_script('farbtastic');
-			wp_enqueue_style('snow-storm', plugins_url() . '/snow-storm/css/snow-storm.css', false, "1.0", "all");
-			wp_enqueue_style('farbtastic');
-		}
-	}
-	
+function snow_storm() {	
 	add_action('wp_ajax_snowstorm_searchpp', 'snow_storm_searchpp');
 }
 
@@ -104,18 +89,33 @@ function snow_storm_metabox_settings() {
 	include dirname(__FILE__) . DS . 'views' . DS . 'admin' . DS . 'metaboxes' . DS . 'settings.php';
 }
 
-function snow_storm_admin_enqueue_scripts() {
-	wp_enqueue_script('jquery');
-	
-	wp_enqueue_script('select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js', array('jquery'), false, true);
-	wp_enqueue_style('select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css', false, '4.0.1', "all");
-	
-	wp_enqueue_script('common', false, false, false, true);
-	wp_enqueue_script('wp-lists', false, false, false, true);
-	wp_enqueue_script('postbox', false, false, false, true);
-	wp_enqueue_script('snow-storm-postboxes', plugins_url() . '/snow-storm/js/postboxes.js', array('jquery'), false, true);
-	wp_enqueue_script('plugin-install');
-	add_thickbox();
+function snow_storm_enqueue_scripts() {	
+	if (is_admin()) {		
+		wp_enqueue_script('jquery');
+		
+		wp_enqueue_script('select2', '//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js', array('jquery'), false, true);
+		wp_enqueue_style('select2', '//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css', false, '4.0.1', "all");
+		
+		wp_enqueue_script('common', false, false, false, true);
+		wp_enqueue_script('wp-lists', false, false, false, true);
+		wp_enqueue_script('postbox', false, false, false, true);
+		wp_enqueue_script('snow-storm-postboxes', plugins_url() . '/snow-storm/js/postboxes.js', array('jquery'), false, true);
+		wp_enqueue_script('plugin-install');
+		add_thickbox();
+		
+		if (!empty($_GET['page']) && $_GET['page'] == "snow-storm") {
+			wp_enqueue_script('farbtastic');
+			wp_enqueue_style('snow-storm', plugins_url() . '/snow-storm/css/snow-storm.css', false, "1.0", "all");
+			wp_enqueue_style('farbtastic');
+		}
+	} else {
+		global $post;
+		$pp = get_option('snowstorm_pp');
+		
+		if (empty($pp) || (!empty($pp) && in_array($post -> ID, $pp))) {
+			wp_enqueue_script('snow-storm', plugins_url() . DS . 'snow-storm' . DS . 'snow-storm.js', false, '1.41');
+		}
+	}
 }
 
 function snow_storm_admin() {
@@ -136,10 +136,11 @@ function snow_storm_admin() {
 $plugin = plugin_basename(__FILE__); 
 add_action('plugins_loaded', 'snow_storm_textdomain', 10, 1);
 add_filter('plugin_action_links_' . $plugin, 'snow_storm_links', 10, 1);
-add_action('wp_head', 'snow_storm', 10);
+add_action('init', 'snow_storm', 10);
 add_action('wp_head', 'snow_storm_head', 11);
 add_action('admin_menu', 'snow_storm_menu', 10);
-add_action('admin_enqueue_scripts', 'snow_storm_admin_enqueue_scripts', 10);
+add_action('wp_enqueue_scripts', 'snow_storm_enqueue_scripts', 10, 1);
+add_action('admin_print_scripts', 'snow_storm_enqueue_scripts', 10, 1);
 register_activation_hook(__FILE__, 'snow_storm_activate');
 
 ?>

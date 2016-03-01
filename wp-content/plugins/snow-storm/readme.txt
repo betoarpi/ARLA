@@ -4,7 +4,7 @@ Donate link: http://tribulant.com
 Tags: Festive, Christmas, Snow Storm, Snow, Falling Snow, Snow Flakes
 Requires at least: 3.0
 Tested up to: 4.4
-Stable tag: 1.4
+Stable tag: 1.4.2
 
 Display falling snow flakes on the front of your WordPress website for a festive presentation.
 
@@ -54,8 +54,15 @@ Go to <strong>Settings > Snow Storm</strong> in your WordPress dashboard where y
 
 == Changelog ==
 
+= 1.4.2 =
+* FIX: Snow behind some elements with some WordPress themes
+
+= 1.4.1 =
+* FIX: Colour picker not working for snow colour in admin settings
+* FIX: Post/page selector/search not working in admin settings
+
 = 1.4 =
-* Setting to show on specific posts/pages
+* ADD: Setting to show on specific posts/pages
 
 = 1.3 =
 * ADD: WordPress 4.0 compatibility
